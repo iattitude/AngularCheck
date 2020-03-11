@@ -15,11 +15,17 @@ export class TopcompComponent implements OnInit,AfterViewInit {
   }
 
   ngAfterViewInit() {
-    console.log(this.cElement);
-    console.log(this.cElement.getElRef());
-    const eref = this.cElement.getElRef();
-    this.renderer.setStyle(eref,'background','olive');
-    //this.renderer.setStyle(this.cElement,'background','olive');
+    
+  }
+
+  handle(event)
+  {
+    this.renderer.setStyle(this.cElement.getElRef().nativeElement,'background','rgb(130, 42, 202)'); //Solved
+  }
+
+  handleRev(event)
+  {
+    this.renderer.setStyle(this.cElement.getElRef().nativeElement,'background','rgb(21, 63, 17)'); //Solved
   }
 
 }
