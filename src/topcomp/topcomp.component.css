@@ -1,0 +1,42 @@
+#parent
+{
+  background: black;
+  height: 110px;
+  width: 30%;
+  vertical-align: middle;
+}
+
+#controls
+{
+  background: lightblue;
+  height: 20px;
+  width: 80%;
+  margin: auto;
+  vertical-align: middle;
+}
+
+#body
+{
+  background: rgb(255, 255, 255);
+  height: 80px;
+  width: 80%;
+  margin: auto;
+  vertical-align: middle;
+}
+
+#control
+{
+  background: rgb(130, 42, 202);
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  float: right;
+}
+#control2
+{
+  background: rgb(21, 63, 17);
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  float: right;
+}
